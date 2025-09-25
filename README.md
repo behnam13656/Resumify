@@ -17,4 +17,4 @@
 ## 🚀 شروع کار
 1. کلون کردن پروژه  
    ```bash
-   git clone https://github.com/your-username/resume-builder.git
+   git clone https://github.com/behnam13656/Resumify.git
