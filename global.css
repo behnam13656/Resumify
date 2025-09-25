@@ -1,0 +1,48 @@
+:root {
+  --font-fa: 'Vazirmatn', sans-serif;
+  --font-en: 'Inter', sans-serif;
+
+  --color-bg: #f8f9fa;
+  --color-surface: #ffffff;
+  --color-primary: #007bff;
+  --color-primary-light: #e6f2ff;
+  --color-primary-dark: #0056b3;
+  --color-secondary-bg: #e9ecef;
+  --color-secondary-text: #6c757d;
+  --color-text: #212529;
+  --color-border: #dee2e6;
+  --color-danger: #dc3545;
+  --color-success: #28a745;
+
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --border-radius: 0.375rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-fa), var(--font-en);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+button, input, textarea {
+  font-family: inherit;
+}
+
+[lang="en"] body {
+  font-family: var(--font-en), var(--font-fa);
+}
